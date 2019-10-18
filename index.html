@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A35-Q1-movie-list-with-genres</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- 初階版 -->
+	<div class="container">
+		<h2><div>初階版</h2>	
+		<div class="row justify-content-between">
+			<!-- RGB輸入區塊 -->
+			<div class="col-6">
+				<h
+				3>RGB</h3>
+				<form id="rgb-input">
+					<div class="form-group row justify-content-between" id="rgb-red">
+						<label class="col-1" for="formGroupExampleInput">R:</label>
+    					<input class="col-8" type="text" class="form-control" placeholder="Red">
+    					<div class="col-1 rounded border border-secondary"></div>
+    					<div class="col-12 text-danger"></div>
+					</div>
+					<div class="form-group row justify-content-between" id="rgb-green">
+						<label class="col-1" for="formGroupExampleInput">G:</label>
+    					<input class="col-8" type="text" class="form-control"  placeholder="Green">
+    					<div class="col-1 rounded border border-secondary"></div>
+    					<div class="col-12 text-danger"></div>
+					</div>
+					<div class="form-group row justify-content-between" id="rgb-blue">
+						<label class="col-1" for="formGroupExampleInput">B:</label>
+    					<input class="col-8" type="text" class="form-control" placeholder="Blue">
+    					<div class="col-1 rounded border border-secondary"></div>
+    					<div class="col-12 text-danger"></div>
+					</div>
+					<button type="submit" class="btn btn-primary">Convert</button>
+				</form>
+			</div>
+			<!-- HEX轉換區塊 -->
+			<div class="col-4" id="hex-output">
+				<h3>HEX</h3>
+				<div class="border-secondary mb-4"></div>
+				<div id="hex-background"></div>
+			</div>
+		</div>
+	</div>
+	<!-- 進階版 -->
+	<hr></hr>
+	<div class="container">
+		<h2>進階版</h2>
+		<div class="row" id="new-rgb-input">
+			<div class="col-12">	
+				<div class="row justify-content-center" id="new-rgb-red">
+					<label class="col-1" >R</label>
+					<input class="col-3" type="range" name="color-slider" min="0" max="255">
+					<label class="col-1"></label>
+				</div>	
+	  		</div>
+	  		<div class="col-12">	
+				<div class="row justify-content-center" id="new-rgb-green">
+					<label class="col-1">G</label>
+					<input class="col-3" type="range" name="color-slider" min="0" max="255">
+					<label class="col-1"></label>
+				</div>	
+	  		</div>
+	  		<div class="col-12">	
+				<div class="row justify-content-center" id="new-rgb-blue">
+					<label class="col-1">B</label>
+					<input class="col-3" type="range" name="color-slider" min="0" max="255">
+					<label class="col-1"></label>
+				</div>	
+	  		</div>
+	  		<div class="col-12">
+	  			<div class="row justify-content-center">
+	  				<div></div>
+	  			</div>
+	  		</div>
+  		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

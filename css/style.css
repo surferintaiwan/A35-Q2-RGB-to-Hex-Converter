@@ -1,0 +1,32 @@
+#hex-background {
+	width: 100px;
+	height: 100px;
+}
+
+#new-rgb-red label:nth-child(1), #new-rgb-red label:nth-child(3){
+	color: white;
+	background-color: red;
+}
+
+#new-rgb-green label:nth-child(1), #new-rgb-green label:nth-child(3){
+	color: white;
+	background-color: green;
+}
+
+#new-rgb-blue label:nth-child(1), #new-rgb-blue label:nth-child(3){
+	color: white;
+	background-color: blue;
+}
+
+#new-rgb-input div:nth-child(4) div div {
+	background-color: rgba(0,0,0,0.2);
+	color: black;
+}
+
+#new-rgb-input label {
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	text-align: center;
+	border-radius: 25px;
+}
