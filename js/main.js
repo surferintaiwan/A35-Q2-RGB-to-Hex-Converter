@@ -150,3 +150,10 @@ newRGBInput.addEventListener('change', function() {
 	newUpdateHEXHTML()
 
 })
+
+newRGBInput.addEventListener('input', function() {
+	newUpdateRGBHTML(event)
+	newRGBToHEX()
+	newUpdateHEXHTML()
+
+})
