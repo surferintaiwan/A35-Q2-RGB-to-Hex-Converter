@@ -30,3 +30,7 @@
 	text-align: center;
 	border-radius: 25px;
 }
+
+#hex-output #hex-background {
+	border: 1px solid #000
+}
